@@ -9,7 +9,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  font-size: 1.1em;
+  font-size: 20px;
 }
 
 .container {
@@ -24,7 +24,7 @@ header {
   align-items: baseline;
   justify-content: space-between;
   align-items: baseline;
-  padding: 5px;
+  padding: 20px 0 20px 0;
 }
 
 h1 {
@@ -33,7 +33,7 @@ h1 {
 }
 
 .header__menu {
-  font-size: 0.8em;
+  font-size: 12px;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -41,11 +41,17 @@ h1 {
   align-items: flex-end;
   justify-content: center;
   gap: 10px;
+  flex-wrap: wrap;
+  margin-right: 10px;
+}
+
+.header__menu > li:nth-child(2) {
+  font-weight: bold;
 }
 
 h2 {
   margin: 0;
-  padding: 5px;
+  padding: 0px;
   background-color: #f87500;
   display: flex;
   flex-direction: row;
@@ -57,7 +63,7 @@ h2 > p {
   display: flex;
   align-items: right;
   padding-right: 10px;
-  font-size: 1em;
+  font-size: 25px;
 }
 
 .h2__add-button {
@@ -69,8 +75,8 @@ h2 > p {
 }
 
 .h2__add-button--image {
-  height: 25px;
-  width: 25px;
+  height: 35px;
+  width: 35px;
 }
 
 main {
@@ -94,6 +100,27 @@ main > p {
   list-style: none;
 }
 
------- {
+/*  {
   text-decoration: line-through;
+} */
+
+h3,
+form {
+  margin: 10px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+label {
+  font-size: 15px;
+}
+
+.form__submit--button {
+  border: none;
+  background-color: #5e81d1;
+  color: white;
+  margin-top: 15px;
+  height: 40px;
 }

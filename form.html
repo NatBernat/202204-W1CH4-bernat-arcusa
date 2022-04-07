@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -22,9 +22,9 @@
       </header>
       <h2>
         <button class="h2__add-button">
-          <a href="form.html">
+          <a href="index.html">
             <img
-              src="images/add-button.svg"
+              src="images/cancel-button.svg"
               alt="add button"
               class="h2__add-button--image"
             />
@@ -33,12 +33,14 @@
         <p>2/3 comprados</p>
       </h2>
       <main>
-        <ul class="main__articles-list">
-          <li><input type="checkbox" name="" id="" />Pan</li>
-          <li><input type="checkbox" name="" id="" />Azúcar</li>
-          <li><input type="checkbox" name="" id="" />Leche</li>
-        </ul>
-        <p>1.95€</p>
+        <h3>Editar artículo</h3>
+        <form>
+          <label>Nombre:</label><br />
+          <input type="text" /><br />
+          <label>Precio:</label><br />
+          <input type="text" /> €<br />
+          <input type="submit" value="Modificar" class="form__submit--button" />
+        </form>
       </main>
     </div>
   </body>
