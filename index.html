@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div>
+    <div class="container">
       <header>
         <h1>Lista de la compra</h1>
         <nav>
-          <ul>
+          <ul class="header__menu">
             <li>Principal</li>
             <li>Lista</li>
             <li>Acerca de</li>
@@ -21,17 +21,23 @@
         </nav>
       </header>
       <h2>
-        <button>+</button>
-        <p>nº comprados</p>
+        <button class="h2__add-button">
+          <img
+            src="images/add-button.svg"
+            alt="add button"
+            class="h2__add-button--image"
+          />
+        </button>
+        <p>2/3 comprados</p>
       </h2>
-      <section>
-        <ul>
-          <li>Pan</li>
-          <li>Azúcar</li>
-          <li>Leche</li>
+      <main>
+        <ul class="main__articles-list">
+          <li><input type="checkbox" name="" id="" />Pan</li>
+          <li><input type="checkbox" name="" id="" />Azúcar</li>
+          <li><input type="checkbox" name="" id="" />Leche</li>
         </ul>
-        <p>Total</p>
-      </section>
+        <p>1.95€</p>
+      </main>
     </div>
   </body>
 </html>
